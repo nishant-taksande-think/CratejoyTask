@@ -36,7 +36,7 @@ public class ProductPage extends BasePage{
 
         TakesScreenshot screenshot1 = (TakesScreenshot) driver;
         File sourceFile1 = screenshot1.getScreenshotAs(OutputType.FILE);
-        FileHandler.copy(sourceFile1, new File("C:\\Users\\lnv0165\\IdeaProjects\\cratejoy\\reports\\HomePage.png"));
+        FileHandler.copy(sourceFile1, new File("HomePage.png"));
 
 
         Actions actions = new Actions(driver);
@@ -50,7 +50,7 @@ public class ProductPage extends BasePage{
 
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File sourceFile2 = screenshot.getScreenshotAs(OutputType.FILE);
-        FileHandler.copy(sourceFile2, new File("C:\\Users\\lnv0165\\IdeaProjects\\cratejoy\\reports\\ProductPage.png"));
+        FileHandler.copy(sourceFile2, new File("ProductPage.png"));
 
 
         subscriptionOption.click();
@@ -62,7 +62,7 @@ public class ProductPage extends BasePage{
 
         TakesScreenshot screenshot3 = (TakesScreenshot) driver;
         File sourceFile3 = screenshot3.getScreenshotAs(OutputType.FILE);
-        FileHandler.copy(sourceFile3, new File("C:\\Users\\lnv0165\\IdeaProjects\\cratejoy\\reports\\CartPage.png"));
+        FileHandler.copy(sourceFile3, new File("CartPage.png"));
 
 
 
